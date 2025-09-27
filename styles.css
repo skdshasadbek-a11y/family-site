@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* убрали margin:40px, чтобы фон заполнил весь экран */
+  background: url("images/Family of Bears - A charming illustration of a bear family standing together_.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff; /* теперь будет видно на фоне */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd700; /* золотистый цвет для ссылок */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container {
+  background: rgba(0,0,0,0.5);
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
